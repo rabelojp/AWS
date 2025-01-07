@@ -4,6 +4,13 @@
         content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
       }
     }
+
+    @media (max-width: 768px) {
+        #about {
+          display: none;
+        }
+      } 
+
 :root {
     --primary: #4353e9;
     --secondary: #E93C05;
