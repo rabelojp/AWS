@@ -1,4 +1,9 @@
-/********** Template CSS **********/
+@media (min-width: 768px) {
+      /* Para dispositivos com largura mínima de 768px (geralmente tablets ou desktops) */
+      meta[name="viewport"] {
+        content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
+      }
+    }
 :root {
     --primary: #0b36a8;
     --secondary: #E93C05;
